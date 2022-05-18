@@ -89,31 +89,45 @@ nav ul li a {
     font-size: 3rem;
     padding: 1rem;    
 }
-.card {
+.section p {
+    color: aliceblue;
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+.card, .card2 {
     max-width: 15vw;
     min-width: 250px;
     height: 100%;
     min-height: 60vh;
     background: transparent;
-    transition: .5s;
+    transition: 1s;
     transition-delay: .5s;
     transform: translate(0, 300px);
     background-color: whitesmoke;
 }
-.card.show {
+.card.show, .card2.show {
     transition: linear .5s;
     display: inline;
-    transform: translate(0, 0);
+    transform: translate(0, 0);    
 }
-.card h1 {
+.card h1, .card2 h1 {
     font-size: 2rem;
     color: var(--bg-color);
 }
-.card p {
+.section .card p, .section .card2 p {
     text-align: justify;
     padding: .5em;
+    color: var(--bg-color);
+    font-size: 1rem;
+    margin: 0;
 }
-.card-img {
+.section .card h3, .section .card2 h3 {
+    text-align: center;    
+    color: var(--bg-color);
+    font-size: 1rem;
+    margin: 0;
+}
+.card-img, .card2-img {
     min-width: 250px;
     height: 40vh;
 }
@@ -125,7 +139,6 @@ nav ul li a {
     top: 0;
     left: 0;
     background-color: #22222200;
-    transition: 1s;
 }
 .card.show #the-hulk::after {
     content: "";
@@ -144,8 +157,7 @@ nav ul li a {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #22222200;
-    transition: 1s;
+    background-color: #22222200;    
 }
 .card.show #thor::after {
     content: "";
@@ -266,5 +278,155 @@ nav ul li a {
     top: 0;
     left: 0;
     background-color: #222222;
+    transition: 1s;
+}
+#iron-man3 {
+    background-image: url(img/movies/fase2/im3.webp);
+    position: relative;
+    background-size: cover;
+}
+#iron-man3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+    transition: 1s;
+}
+.card2.show #iron-man3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #22222200;
+    transition: 1s;
+}
+#thor2 {
+    background-image: url(img/movies/fase2/thor2.webp);
+    position: relative;
+    background-size: cover;
+}
+#thor2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+    transition: 1s;
+}
+.card2.show #thor2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #22222200;
+    transition: 1s;
+}
+#captain2 {
+    background-image: url(img/movies/fase2/captain2.jpg);
+    position: relative;
+    background-size: cover;
+}
+#captain2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+    transition: 1s;
+}
+.card2.show #captain2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #22222200;
+    transition: 1s;
+}
+#guardians {
+    background-image: url(img/movies/fase2/guardians.webp);
+    position: relative;
+    background-size: cover;
+}
+#guardians::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+    transition: 1s;
+}
+.card2.show #guardians::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #22222200;
+    transition: 1s;
+}
+#aou {
+    background-image: url(img/movies/fase2/aou.webp);
+    position: relative;
+    background-size: cover;
+}
+#aou::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+    transition: 1s;
+}
+.card2.show #aou::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #22222200;
+    transition: 1s;
+}
+#ant-man {
+    background-image: url(img/movies/fase2/ant-man.webp);
+    position: relative;
+    background-size: cover;
+}
+#ant-man::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+    transition: 1s;
+}
+.card2.show #ant-man::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #22222200;
     transition: 1s;
 }
